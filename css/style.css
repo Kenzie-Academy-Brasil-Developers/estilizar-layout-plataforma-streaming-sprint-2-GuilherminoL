@@ -15,25 +15,109 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 */
 
 /* VARIÁVEIS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root{
   
 }
 
 /*BODY*/
-	body{
-
-	}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	background-color: #141414;
+	color:gray;
+}
 
 /*TOPO*/
-	header.topo{
-		
-	}
+.header{
+	display:flex;
+	justify-content: center;
+	padding: 10px;
+}
+.header__image{
+	margin: 0 auto;
+	width: 120px;
+}
+.header__description{
+	display:none;
+}
 
+/* MAIN */
+.main__title{
+	text-align: center;
+	color: white;
+	font-size: 19px
+}
+.main__user-list{
+	max-width: 100%;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.main__user{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width:186px;;
+ 	padding: 0 ;
+}
+.main__user__avatar{
+	width:120px;
+}
+.main__user__description{
+	display: none;
+}
+.main__user__name{
+	margin:0;
+	margin-bottom: 10px
+}
 /*RODAPÉ*/
-	
+.footer{
+	padding-top: 20px;
+	display:flex;
+	justify-content: center;
+}
+.footer__button{
+	text-transform: uppercase;
+	font-size: 16px;
+	width: 80%;
+	padding: 10px 0
+}
 
+.main__user-figure{
+	width:fit-content;
+	margin:12px
+}
 /*PÁGINA INICIAL*/
 	div.pg-home{
 		
 	}
+@media (min-width: 450px){
+	.header{
+		justify-content: flex-start;
+	}
+	.header__image{
+		margin: 10px 20px;
+		width: 120px;
+	}
 
+	.main__title{
+		letter-spacing: 3px;
+		margin-bottom: 0px;
+		color: white;
+		font-size: 50px
+	}
+
+	.footer__button{
+		width: 22%;
+		background-color: #141414;
+		color:gray;
+		border: 1px solid grey;
+		text-transform:uppercase
+	}
+
+}

@@ -17,72 +17,72 @@
 <body>
 	
 	<!-- CABEÇALHO -->
-	<header class="topo">
-		<figure>
-			<img src="img/logo.svg" alt="Netflix">
-			<figcaption>Netflix</figcaption>
+	<header class="header">
+		<figure class="header__container">
+			<img  class="header__image" src="img/logo.svg" alt="Netflix">
+			<figcaption class="header__description">Netflix</figcaption>
 		</figure>
 	</header>
 
 	<!-- PÁGINA INICIAL -->
 	<div class="pg-home">
 		
-		<section>
+		<main class="main">
 
-			<header>
-				<h2>Quem está assistindo?</h2>
+			<header class="main__header">
+				<h2 class="main__title">Quem está assistindo?</h2>
 			</header>
 
 			<!-- LISTA DE USUÁRIOS -->
-			<ul>
+			<ul class="main__user-list">
 				
 				<!-- USUÁRIO 1 -->
-				<li>
-					<figure>
-						<img src="img/avatar.png" alt="Gabriel">
-						<figcaption>Gabriel</figcaption>
+				<li class="main__user">
+					<figure class="main__user-figure">
+						<img src="img/avatar.png" alt="Gabriel" class="main__user__avatar">
+						<figcaption class="main__user__description">Gabriel</figcaption>
 					</figure>
 
-					<h3>Gabriel</h3>
+					<h3 class= 'main__user__name'>Gabriel</h3>
 				</li>
 				
 				<!-- USUÁRIO 2 -->
-				<li>
-					<figure>
-						<img src="img/avatar1.png" alt="Maria">
-						<figcaption>Maria</figcaption>
+				<li class="main__user">
+					<figure class="main__user-figure">
+						<img src="img/avatar1.png" alt="Maria" class="main__user__avatar">
+						<figcaption class="main__user__description">Maria</figcaption>
 					</figure>
 
-					<h3>Maria</h3>
+					<h3 class= 'main__user__name'>Maria</h3>
 				</li>
 				
 				<!-- USUÁRIO 3 -->
-				<li>
-					<figure>
-						<img src="img/avatar2.png" alt="Renato">
-						<figcaption>Renato</figcaption>
+				<li class="main__user">
+					<figure class="main__user-figure">
+						<img src="img/avatar2.png" alt="Renato" class="main__user__avatar">
+						<figcaption class="main__user__description">Renato</figcaption>
 					</figure>
 
-					<h3>Renato</h3>
+					<h3 class= 'main__user__name'>Renato</h3>
 				</li>
 
 				<!-- ADICIONAR PERFIL-->
-				<li class="addPerfil">
-					<figure>
-						<img src="img/plus-sign.png" alt="Adicionar perfil">
-						<figcaption>Adicionar perfil</figcaption>
+				<li class="main__user main__user--newuser">
+					<figure class="main__user-figure">
+						<img src="img/plus-sign.png" alt="Adicionar perfil" class="main__user__avatar">
+						<figcaption class="main__user__description">Adicionar perfil</figcaption>
 					</figure>
 
-					<h3>Adicionar perfil</h3>
+					<h3 class= 'main__user__name'>Adicionar perfil</h3>
 				</li>
 
 			</ul>
 
-			<footer>
-				<button>Gerenciar Perfis</button>
+			<footer class="footer">
+				<button class="footer__button" >Gerenciar Perfis</button>
 			</footer>
 
-		</section>
+		</main>
 
 	</div>
 

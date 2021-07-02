@@ -23,7 +23,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica Neue','Roboto', sans-serif;
 	margin: 0;
 	background-color: #141414;
 	color:gray;
@@ -50,7 +50,8 @@ body{
 	font-size: 19px
 }
 .main__user-list{
-	max-width: 100%;
+	margin: 0 auto;
+	max-width: 858px;
 	padding: 0;
 	text-align: center;
 	list-style: none;
